@@ -1,0 +1,39 @@
+// CLIENTS
+.clients-list {
+  display: flex;
+  margin: -15px;
+
+  & .item {
+    margin: 15px;
+  }
+
+  & .link {
+    width: 170px;
+    height: 90px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: $transition;
+  }
+
+  & .icon {
+    fill: #afb1b8;
+
+    transition: $transition;
+  }
+
+  & .link:hover,
+  & .link:focus {
+    border-color: $accent-color;
+    transform: scale(1.2);
+  }
+
+  & .link:hover .icon,
+  & .link:focus .icon {
+    fill: $accent-color;
+  }
+}
+// end CLIENTS

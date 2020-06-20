@@ -1,0 +1,141 @@
+// FOOTER
+.footer {
+  background-color: #2f303a;
+  color: $primary-white-color;
+
+  &-info {
+    display: flex;
+    padding-top: 48px;
+    padding-bottom: 28px;
+    align-items: baseline;
+  }
+
+  & .logo {
+    color: $primary-white-color;
+    font-size: 22px;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+.address-block {
+  margin-top: 0;
+  margin-right: 30px;
+  width: calc((100% - 30px * 2) / 12 * 3);
+}
+
+.address {
+  line-height: 1.7;
+  font-style: normal;
+
+  .map-address {
+    margin-top: 0;
+    margin-bottom: 9px;
+  }
+
+  .footer-contact {
+    color: rgba(255, 255, 255, 0.6);
+    display: block;
+    margin-bottom: 9px;
+
+    transition: $transition;
+
+    &:hover,
+    &:focus {
+      color: $accent-color;
+    }
+  }
+}
+
+.links-block {
+  margin-right: 30px;
+  width: calc((100% - 30px * 2) / 12 * 3);
+  .exhortation {
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 21px;
+  }
+}
+
+.our.social-links {
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+  & .item:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  & .link {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    transition: $transition;
+  }
+
+  & .link:hover,
+  & .link:focus {
+    background-color: $accent-color;
+  }
+
+  & .icon {
+    fill: $primary-white-color;
+  }
+}
+
+.exhortation-block {
+  width: calc((100% - 30px) / 2);
+
+  .exhortation {
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 21px;
+  }
+}
+
+.footer-form {
+  display: flex;
+
+  .input {
+    background-color: #2f303a;
+    color: $primary-white-color;
+    width: 350px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    padding: 0 12px;
+    margin-right: 12px;
+
+    &:hover,
+    &:focus {
+      outline-color: $accent-color;
+    }
+  }
+}
+
+.sign {
+  font-weight: 900;
+  padding: 10px 45px;
+}
+
+.botton.sign {
+  display: flex;
+  align-items: center;
+
+  & .icon {
+    margin-left: 10px;
+    fill: $primary-white-color;
+
+    transition: $transition;
+  }
+
+  &:hover .icon,
+  &:focus .icon {
+    fill: $accent-color;
+  }
+}
+// end FOOTER

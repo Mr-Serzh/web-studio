@@ -1,0 +1,39 @@
+// FEATURES
+.features-list {
+  display: flex;
+  align-items: center;
+}
+
+.features-card {
+  width: calc((100% - 30px * 3) / 4);
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  .features-icon {
+    background-color: $secondary-bg-color;
+    height: 120px;
+    border-radius: 4px;
+    // overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .features-item {
+    color: $title-text-color;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+
+  .features-text {
+    line-height: 1.7;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+}
+// end FEATURES

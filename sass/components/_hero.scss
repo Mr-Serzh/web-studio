@@ -1,0 +1,37 @@
+// HERO
+.hero {
+  text-align: center;
+
+  &.overlay {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url('../images/Header.jpg');
+    background-color: rgba(47, 48, 58, 0.8);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    &.maldives {
+      background-image: linear-gradient(to right, rgba(47, 48, 58, 0.3), rgba(47, 48, 58, 0.3)), url('../images/Maldives.jpg');
+    }
+  }
+
+  &-title {
+    margin-top: 0;
+    margin-bottom: 30px;
+    max-width: 646px;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: $primary-white-color;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+}
+// end HERO
