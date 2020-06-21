@@ -46,6 +46,19 @@
 
 .foto-member {
   margin-bottom: 30px;
+  object-fit: cover;
+  object-position: top;
+  width: 450px;
+  height: 320px;
+
+  @media (min-width: 776px) {
+    width: 354px;
+    height: 260px;
+  }
+  @media (min-width: 992px) {
+    width: 270px;
+    height: 260px;
+  }
 }
 
 .team-member {
