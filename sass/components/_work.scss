@@ -1,4 +1,23 @@
 // WORK
+.work {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+
+  @media (min-width: 992px) {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
 .services-list {
   display: flex;
   align-items: center;
