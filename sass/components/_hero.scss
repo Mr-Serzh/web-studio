@@ -14,11 +14,11 @@
     background-position: center;
     background-size: cover;
 
-    @media (min-width: 776px) {
-      max-width: 768px;
+    @media screen and (min-width: 768px) {
+      max-width: 1200px;
     }
 
-    @media (min-width: 992px) {
+    @media screen and (min-width: 1200px) {
       max-width: 1600px;
       padding-top: 200px;
       padding-bottom: 200px;
@@ -43,7 +43,7 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
 
-    @media (min-width: 992px) {
+    @media screen and (min-width: 1200px) {
       max-width: 696px;
       font-size: 44px;
       line-height: 1.36;

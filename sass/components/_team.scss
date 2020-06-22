@@ -2,7 +2,7 @@
 .team {
   background-color: $secondary-bg-color;
   &-list {
-    @media (min-width: 776px) {
+    @media screen and (min-width: 768px) {
       display: flex;
       flex-wrap: wrap;
       align-items: flex-start;
@@ -20,7 +20,7 @@
     margin-bottom: 30px;
   }
 
-  @media (min-width: 776px) {
+  @media screen and (min-width: 768px) {
     width: calc((100% - 30px) / 2);
     margin-right: 30px;
     &:nth-child(2n) {
@@ -31,7 +31,7 @@
     }
   }
 
-  @media (min-width: 992px) {
+  @media screen and (min-width: 1200px) {
     width: calc((100% - 30px * 3) / 4);
     &:not(:last-child) {
       margin-right: 30px;
@@ -51,12 +51,7 @@
   max-width: 100%;
   height: 320px;
 
-  @media (min-width: 776px) {
-    // width: 354px;
-    height: 260px;
-  }
-  @media (min-width: 992px) {
-    // width: 270px;
+  @media screen and (min-width: 768px) {
     height: 260px;
   }
 }
