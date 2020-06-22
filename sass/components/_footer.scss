@@ -8,7 +8,7 @@
     padding-bottom: 60px;
     text-align: center;
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: $desktop) {
       display: flex;
       align-items: baseline;
       text-align: start;
@@ -25,12 +25,12 @@
 }
 
 .address-link-block {
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: $tablet) {
     display: flex;
     align-items: baseline;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: $desktop) {
     width: calc(100% / 2);
   }
 }
@@ -39,11 +39,11 @@
   margin-top: 0;
   margin-bottom: 60px;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: $tablet) {
     width: calc((100% - 30px) / 2);
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: $desktop) {
     margin-right: 30px;
     margin-bottom: 0;
   }
@@ -57,7 +57,7 @@
     margin-top: 0;
     margin-bottom: 8px;
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: $desktop) {
       margin-bottom: 9px;
     }
   }
@@ -67,7 +67,7 @@
     display: block;
     margin-bottom: 8px;
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: $desktop) {
       margin-bottom: 9px;
     }
 
@@ -83,11 +83,11 @@
 .links-block {
   margin-bottom: 60px;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: $tablet) {
     width: calc((100% - 30px) / 2);
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: $desktop) {
     margin-right: 30px;
     margin-bottom: 0;
   }
@@ -104,7 +104,7 @@
 .our.social-links {
   flex-wrap: wrap;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: $desktop) {
     justify-content: flex-start;
   }
 
@@ -125,7 +125,7 @@
 }
 
 .exhortation-block {
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: $desktop) {
     text-align: start;
     width: calc((100% - 30px) / 2);
   }
@@ -141,7 +141,7 @@
 
 .footer-form {
   align-items: center;
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: $desktop) {
     display: flex;
   }
 
@@ -155,7 +155,7 @@
     padding: 0 12px;
     margin-bottom: 20px;
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: $desktop) {
       margin-right: 12px;
       width: 350px;
       margin-bottom: 0;

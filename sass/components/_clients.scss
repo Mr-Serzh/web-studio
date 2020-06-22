@@ -8,11 +8,11 @@
     width: calc((100% - 30px * 2) / 2);
     margin: 15px;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: $tablet) {
       width: calc((100% - 30px * 3) / 3);
     }
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: $desktop) {
       width: calc((100% - 30px * 6) / 6);
     }
   }
