@@ -1,11 +1,33 @@
 // FILTER
 .filter {
   display: flex;
-  margin-bottom: 50px;
-  justify-content: center;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+
+  & .item {
+    margin-bottom: 15px;
+
+    @media (min-width: 776px) {
+      margin-bottom: 0;
+    }
+  }
+
+  & .item:nth-last-child(-n + 2) {
+    margin-bottom: 0;
+  }
 
   & .item:not(:last-child) {
     margin-right: 8px;
+  }
+
+  @media (min-width: 776px) {
+    justify-content: center;
+    margin-bottom: 30px;
+    flex-wrap: nowrap;
+  }
+
+  @media (min-width: 992px) {
+    margin-bottom: 50px;
   }
 }
 
