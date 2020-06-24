@@ -76,6 +76,7 @@
   // overflow: hidden;
 
   .portfolio-title {
+    @extend %dots;
     color: $title-text-color;
     font-weight: 700;
     font-size: 18px;
