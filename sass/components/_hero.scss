@@ -1,6 +1,6 @@
 // HERO
 .hero {
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: $tablet - 1) {
     margin-top: 60px;
   }
 

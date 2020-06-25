@@ -1,4 +1,10 @@
 // PORTFOLIO
+.portfolio {
+  @media screen and (max-width: $tablet - 1) {
+    margin-top: 60px;
+  }
+}
+
 .examples-portfolio {
   align-items: center;
   margin: -15px;
@@ -16,7 +22,7 @@
 
 .portfolio-card {
   &:not(:last-child) {
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: $tablet - 1) {
       margin-bottom: 30px;
     }
   }
