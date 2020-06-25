@@ -32,6 +32,7 @@
   border: none;
   background-color: transparent;
   outline: transparent;
+  transition: $transition;
 
   &:hover {
     fill: $accent-color;
