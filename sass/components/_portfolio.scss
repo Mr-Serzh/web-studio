@@ -7,11 +7,11 @@
 
 .examples-portfolio {
   align-items: center;
-  margin: -15px;
 
   @media screen and (min-width: $tablet) {
     display: flex;
     flex-wrap: wrap;
+    margin: -15px;
   }
 
   & .item:hover,
@@ -42,6 +42,13 @@
 .info-card {
   position: relative;
   overflow: hidden;
+  height: 294px;
+
+  & .portfolio-foto {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+  }
 }
 
 .portfolio-text {
