@@ -1744,11 +1744,25 @@ img {
   line-height: 1.55;
   margin-top: 0;
   margin-bottom: 0;
-  padding: 63px 24px;
+  padding: 77px 24px;
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
   -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio-text {
+    padding-top: 49px;
+    padding-bottom: 49px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .portfolio-text {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
 }
 
 .examples-portfolio .item:hover .portfolio-text {
