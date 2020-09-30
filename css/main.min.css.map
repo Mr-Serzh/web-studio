@@ -7,7 +7,7 @@
         "../sass/utils/_placeholders.scss",
         "../sass/utils/_mixins.scss",
         "../sass/base/_normalize.scss",
-        "../sass/components/_clobal.scss",
+        "../sass/components/_global.scss",
         "../sass/components/_header.scss",
         "../sass/components/_logo.scss",
         "../sass/components/_hero.scss",
