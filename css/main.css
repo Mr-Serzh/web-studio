@@ -268,6 +268,16 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
+  /* --- footer on the bottom ---*/
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  /* --- end footer on the bottom---- */
 }
 
 body.modal-open {
@@ -1364,6 +1374,9 @@ img {
 }
 
 .footer {
+  /* --- footer on the bottom --- */
+  margin-top: auto;
+  /* --- end footer on the bottom --- */
   background-color: #2f303a;
   color: #ffffff;
 }
