@@ -1171,10 +1171,10 @@ img {
   .modal {
     min-width: 450px;
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -15%);
+            transform: translate(-50%, -15%);
   }
 }
 
